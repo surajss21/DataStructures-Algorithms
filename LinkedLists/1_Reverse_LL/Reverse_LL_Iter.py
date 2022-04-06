@@ -6,7 +6,7 @@ def reverseLL(head):
   else:
     curr = head
     prev = None
-    forward = Node
+    forward = None
 
     while(curr != None):
       forward = curr.next
