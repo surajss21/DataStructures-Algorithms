@@ -19,6 +19,8 @@ def firstNode(head):
         return None  
      
     intersect = detectLoop(head)
+    if(intersect == None):
+        return None
     slow = head
     
     while(slow != intersect):
